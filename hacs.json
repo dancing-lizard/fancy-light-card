@@ -1,5 +1,6 @@
 {
-    "name": "Boilerplate Card",
+    "name": "Fancy Light Card",
     "render_readme": true,
-    "filename": "boilerplate-card.js"
+    "filename": "fancy-light-card.js",
+    "domains": ["light"]
 }
