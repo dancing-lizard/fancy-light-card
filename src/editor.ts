@@ -16,11 +16,6 @@ import {
     LovelaceCardEditor
 } from "./types";
 
-import "@material/mwc-list";
-import "@material/mwc-list/mwc-list-item";
-import "@material/mwc-select";
-import "@material/mwc-textfield";
-
 import { THEME } from "./const";
 
 @customElement("fancy-light-card-editor")

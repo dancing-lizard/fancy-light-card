@@ -13,12 +13,6 @@ import { HomeAssistant, hasConfigOrEntityChanged, LovelaceCard } from "custom-ca
 
 import iro from "@jaames/iro";
 
-// mwc-button is already imported by HASS
-// import "@material/mwc-button";
-import "@material/mwc-list";
-import "@material/mwc-list/mwc-list-item";
-import "@material/mwc-select";
-
 import {
     Capabilities,
     CommitType,
@@ -29,7 +23,7 @@ import {
     LightEntityAttributes,
     LovelaceCardEditor
 } from "./types";
-import { CARD_VERSION, THEME } from "./const";
+import { CARD_VERSION, CARD_DESCRIPTION, THEME } from "./const";
 import "./editor";
 
 /* eslint no-console: 0 */
@@ -440,5 +434,5 @@ window.customCards.push({
     type: "fancy-light-card",
     name: "Fancy light card",
     preview: false,
-    description: "Fancy light card based on iro.js"
+    description: CARD_DESCRIPTION
 });

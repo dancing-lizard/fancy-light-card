@@ -1,7 +1,8 @@
 import { css } from "lit-element";
-import { version } from "../package.json";
+import { version, description } from "../package.json";
 
 export const CARD_VERSION = version;
+export const CARD_DESCRIPTION = description;
 
 export const THEME = css`
     .fancy-light-card__mdc-theme {
