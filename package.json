@@ -15,7 +15,7 @@
     "author": "Dancing Lizard",
     "license": "MIT",
     "dependencies": {
-        "@jaames/iro": "^5.1.5",
+        "@jaames/iro": "=5.1.5",
         "custom-card-helpers": "^1.5.0",
         "home-assistant-js-websocket": "^4.5.0",
         "lit-element": "^2.3.1",
